@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ['cdn.jotfor.ms', 'cdn.sanity.io'],
     remotePatterns: [
       {
         protocol: "https",
@@ -9,6 +10,7 @@ const nextConfig = {
       },
     ],
   },
+
 };
 
 module.exports = nextConfig;
