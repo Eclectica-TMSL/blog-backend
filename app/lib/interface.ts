@@ -6,7 +6,7 @@ export interface simpleBlogCard {
 }
 
 export interface fullBlog {
-  author: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
+  author: string;
   currentSlug: string;
   title: string;
   content: any;
